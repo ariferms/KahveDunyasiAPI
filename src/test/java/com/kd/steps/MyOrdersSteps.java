@@ -23,7 +23,7 @@ public class MyOrdersSteps {
         myOrdersServiceRes = myOrdersService.getMyOrders(getToken, tenantId);
     }
 
-    @Then("Sayfanin acildigi kontrol edilir")
+    @Then("Siparislerim sayfasinin acildigi kontrol edilir")
     public void myOrderControl(){
         Assertions.assertEquals("Success", myOrdersServiceRes.jsonPath().getString("processStatus"), "MyOrder processStatus does not match!");
     }

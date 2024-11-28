@@ -4,4 +4,4 @@ Feature: Siparislerim sayfasinin kontrolleri
   Scenario: Siparislerim sayfasinin goruntulenmesi
     Given Kullanici profilim iconuna tiklar
     When Siparis gecmisim tab'ine tiklar
-    Then Sayfanin acildigi kontrol edilir
+    Then Siparislerim sayfasinin acildigi kontrol edilir
