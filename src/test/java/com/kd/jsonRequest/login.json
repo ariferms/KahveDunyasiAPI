@@ -1,0 +1,7 @@
+{
+  "grant_type": "sms_verification",
+  "scope": "offline_access",
+  "phone_number": "5346291903",
+  "country_code": "90",
+  "otp": "123456"
+}
