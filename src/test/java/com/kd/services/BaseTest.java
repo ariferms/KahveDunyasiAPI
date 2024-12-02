@@ -16,8 +16,10 @@ import java.util.Arrays;
 
 public class BaseTest {
     RequestSpecification spec;
-    public String basketType = "OnlineStore",
-            tenantId = "d0f29b68-329e-423b-8fca-aaab198513c1";
+    public String basketType = "OnlineStore" ,
+            tenantType = basketType,
+            tenantId = "d0f29b68-329e-423b-8fca-aaab198513c1",
+            basketId = "b7c10d94-d7e0-46cb-af76-1fe16c6ff77e";
     public static String token;
 
     public BaseTest() {
