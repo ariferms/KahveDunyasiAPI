@@ -25,7 +25,7 @@ public class LoginKDService extends BaseTest {
                 .contentType(ContentType.JSON)
                 .accept("application/json, text/plain, */*")
                 .body(loginBody)
-                .post("http://web-dev.apps.kahvedunyasi01.kahvedunyasi.local/api/login");
+                .post("http://web-dev.apps.kahvedunyasi02.kahvedunyasi.local/api/login");
         response
                 .then()
                 .statusCode(200)

@@ -24,7 +24,7 @@ public class BaseTest {
 
     public BaseTest() {
         spec = new RequestSpecBuilder()
-                .setBaseUri("http://gateway-dev.apps.kahvedunyasi01.kahvedunyasi.local/api/")
+                .setBaseUri("http://gateway-dev.apps.kahvedunyasi02.kahvedunyasi.local/api/")
                 .addFilters(Arrays.<Filter>asList(new RequestLoggingFilter(), new ResponseLoggingFilter()))
                 .build();
     }
